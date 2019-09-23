@@ -727,7 +727,7 @@
     "dependsOn": [
       "[resourceId(‘Microsoft.Web/sites’, variables(‘siWebAppNameTidy’))]"
       ]
-    }
+    },
     {
       "copy": {
         "name": "[concat(parameters('deploymentId'), '-prerequisites')]",
